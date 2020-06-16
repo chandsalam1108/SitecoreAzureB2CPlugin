@@ -1,0 +1,13 @@
+C:\Chand\GitVadim.Examples.NetCore\GitVadim.Sitecore.NetCore.IdentityServer.AzureB2C\bin\Release\netstandard2.0\global.json
+C:\Chand\GitVadim.Examples.NetCore\GitVadim.Sitecore.NetCore.IdentityServer.AzureB2C\bin\Release\netstandard2.0\Sitecore.Plugin.IdentityProvider.AzureB2C.deps.json
+C:\Chand\GitVadim.Examples.NetCore\GitVadim.Sitecore.NetCore.IdentityServer.AzureB2C\bin\Release\netstandard2.0\Sitecore.Plugin.IdentityProvider.AzureB2C.dll
+C:\Chand\GitVadim.Examples.NetCore\GitVadim.Sitecore.NetCore.IdentityServer.AzureB2C\bin\Release\netstandard2.0\Sitecore.Plugin.IdentityProvider.AzureB2C.pdb
+C:\Chand\GitVadim.Examples.NetCore\GitVadim.Sitecore.NetCore.IdentityServer.AzureB2C\obj\Release\netstandard2.0\Sitecore.Plugin.IdentityProvider.AzureB2C.csprojAssemblyReference.cache
+C:\Chand\GitVadim.Examples.NetCore\GitVadim.Sitecore.NetCore.IdentityServer.AzureB2C\obj\Release\netstandard2.0\Sitecore.Plugin.IdentityProvider.AzureB2C.csproj.CoreCompileInputs.cache
+C:\Chand\GitVadim.Examples.NetCore\GitVadim.Sitecore.NetCore.IdentityServer.AzureB2C\obj\Release\netstandard2.0\Sitecore.Plugin.IdentityProvider.AzureB2C.AssemblyInfoInputs.cache
+C:\Chand\GitVadim.Examples.NetCore\GitVadim.Sitecore.NetCore.IdentityServer.AzureB2C\obj\Release\netstandard2.0\Sitecore.Plugin.IdentityProvider.AzureB2C.AssemblyInfo.cs
+C:\Chand\GitVadim.Examples.NetCore\GitVadim.Sitecore.NetCore.IdentityServer.AzureB2C\obj\Release\netstandard2.0\Sitecore.Plugin.IdentityProvider.AzureB2C.dll
+C:\Chand\GitVadim.Examples.NetCore\GitVadim.Sitecore.NetCore.IdentityServer.AzureB2C\obj\Release\netstandard2.0\Sitecore.Plugin.IdentityProvider.AzureB2C.pdb
+C:\Chand\GitVadim.Examples.NetCore\GitVadim.Sitecore.NetCore.IdentityServer.AzureB2C\bin\Release\netstandard2.0\sitecore\Sitecore.Plugin.IdentityProvider.AzureB2C\Config\Sitecore.Plugin.IdentityProvider.AzureB2C.xml
+C:\Chand\GitVadim.Examples.NetCore\GitVadim.Sitecore.NetCore.IdentityServer.AzureB2C\bin\Release\netstandard2.0\sitecore\Sitecore.Plugin.IdentityProvider.AzureB2C\Sitecore.Plugin.manifest
+C:\Chand\GitVadim.Examples.NetCore\GitVadim.Sitecore.NetCore.IdentityServer.AzureB2C\bin\Release\netstandard2.0\Sitecore.Plugin.IdentityProvider.AzureB2C.xml

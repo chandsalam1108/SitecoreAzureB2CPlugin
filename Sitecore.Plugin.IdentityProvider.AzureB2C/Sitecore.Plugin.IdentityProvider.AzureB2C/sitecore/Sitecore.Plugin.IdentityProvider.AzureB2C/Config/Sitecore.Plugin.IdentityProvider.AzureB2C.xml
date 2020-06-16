@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <Sitecore>
+    <ExternalIdentityProviders>
+      <IdentityProviders>
+        <AzureB2C type="Sitecore.Plugin.IdentityProvider.AzureB2C.AzureB2CIdentityProvider, Sitecore.Plugin.IdentityProvider.AzureB2C">
+          <AuthenticationScheme>IdS4-AzureB2C</AuthenticationScheme>
+          <Enabled>true</Enabled>
+          <!-- BEGIN AB2C CUSTOM CONFIGURATION BLOCK -->
+          <DisplayName>Azure AD B2C</DisplayName>
+          <!-- The ID of your application within the tenant -->
+          <ClientId>49ba968d-f51d-491e-9b8d-xxxxxxxxxxxx</ClientId>
+          <!-- The name of your signup policy -->
+          <SignUpSignInPolicyId>B2C_1_XXXXXXXX</SignUpSignInPolicyId>
+          <!-- Your ADB2C instance as https://{tenant_name}.b2clogin.com-->
+          <AzureAdB2CInstance>https://XXXXXXXX.b2clogin.com</AzureAdB2CInstance>
+          <!-- Your tenant as {tenant_name}.onmicrosoft.com -->
+          <Tenant>XXXXXXXX.onmicrosoft.com</Tenant>
+          <!-- RedirectURL must be {IdentityServer_URL/signin-oidc} -->
+          <RedirectUrl>https://zauth.identityserver/signin-oidc</RedirectUrl>
+          <ClientSecret>4R-RhFU-GmWmr~Tj69G.xxxxxxxxxxxx</ClientSecret>
+          <!-- END AB2C CUSTOM CONFIGURATION BLOCK -->
+        </AzureB2C>
+      </IdentityProviders>
+    </ExternalIdentityProviders>
+  </Sitecore>
+</Settings>

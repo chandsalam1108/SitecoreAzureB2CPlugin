@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Sdk Name="Sitecore.Framework.Runtime.Build" />
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>Sitecore.Plugin.IdentityProvider.AzureB2C.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>Sitecore.Plugin.IdentityProvider.AzureB2C.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="global.json" />
+    <None Remove="sitecore\Sitecore.Plugin.IdentityProvider.AzureB2C\Config\Sitecore.Plugin.IdentityProvider.AzureB2C.xml" />
+    <None Remove="sitecore\Sitecore.Plugin.IdentityProvider.AzureB2C\Sitecore.Plugin.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="global.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sitecore\Sitecore.Plugin.IdentityProvider.AzureB2C\Config\Sitecore.Plugin.IdentityProvider.AzureB2C.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sitecore\Sitecore.Plugin.IdentityProvider.AzureB2C\Sitecore.Plugin.manifest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="2.1.2" />
+    <PackageReference Include="Sitecore.Framework.Runtime.Abstractions" Version="4.1.0" />
+    <PackageReference Include="Sitecore.Plugin.IdentityProviders" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>

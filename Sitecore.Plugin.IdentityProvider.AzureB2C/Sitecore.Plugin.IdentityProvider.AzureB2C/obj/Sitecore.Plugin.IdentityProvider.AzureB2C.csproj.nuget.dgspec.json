@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Chand\\GitVadim.Examples.NetCore\\GitVadim.Sitecore.NetCore.IdentityServer.AzureB2C\\Sitecore.Plugin.IdentityProvider.AzureB2C.csproj": {}
+  },
+  "projects": {
+    "C:\\Chand\\GitVadim.Examples.NetCore\\GitVadim.Sitecore.NetCore.IdentityServer.AzureB2C\\Sitecore.Plugin.IdentityProvider.AzureB2C.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Chand\\GitVadim.Examples.NetCore\\GitVadim.Sitecore.NetCore.IdentityServer.AzureB2C\\Sitecore.Plugin.IdentityProvider.AzureB2C.csproj",
+        "projectName": "Sitecore.Plugin.IdentityProvider.AzureB2C",
+        "projectPath": "C:\\Chand\\GitVadim.Examples.NetCore\\GitVadim.Sitecore.NetCore.IdentityServer.AzureB2C\\Sitecore.Plugin.IdentityProvider.AzureB2C.csproj",
+        "packagesPath": "C:\\Users\\sitecore\\.nuget\\packages\\",
+        "outputPath": "C:\\Chand\\GitVadim.Examples.NetCore\\GitVadim.Sitecore.NetCore.IdentityServer.AzureB2C\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Chand\\GitVadim.Examples.NetCore\\NuGet.Config",
+          "C:\\Users\\sitecore\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://sitecore.myget.org/F/sc-identity/api/v3/index.json": {},
+          "https://sitecore.myget.org/F/sc-packages/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Sitecore.Framework.Runtime.Abstractions": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Sitecore.Plugin.IdentityProviders": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

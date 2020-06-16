@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SitecorePlugin PluginName="Sitecore.Plugin.IdentityProvider.AzureB2C" AssemblyName="Sitecore.Plugin.IdentityProvider.AzureB2C" Version="1.0.0">
+  <Dependencies>
+    <Dependency name="Sitecore.Plugin.IdentityProviders">2.0.0</Dependency>
+  </Dependencies>
+  <Tags />
+</SitecorePlugin>
